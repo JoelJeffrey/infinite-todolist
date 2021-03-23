@@ -1,0 +1,26 @@
+.todo-done {
+  text-decoration: line-through;
+}
+
+.todo-list-item {
+  display: inline-grid;
+  grid-template-columns: max-content 15rem max-content max-content;
+  background: #fff;
+  grid-gap: 1rem;
+  padding: 0.8rem;
+  border-radius: 0.4rem;
+  align-items: center;
+}
+
+.todo-list-input {
+  background: transparent;
+  padding: 0.4rem 0.4rem;
+  font-size: 1rem;
+  border: none;
+  border-bottom: 1px solid #999;
+  outline: none; /* this is for demo only, don't remove because accessibility */
+}
+
+.todo-item-action {
+  cursor: pointer;
+}

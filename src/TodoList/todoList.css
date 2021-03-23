@@ -1,0 +1,12 @@
+.todo-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: grid;
+  grid-gap: 0.5rem;
+  justify-items: center;
+}
+
+.todo-list ul {
+  padding-left: 20px;
+}
